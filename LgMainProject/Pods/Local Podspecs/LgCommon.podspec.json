@@ -1,0 +1,21 @@
+{
+  "name": "LgCommon",
+  "version": "0.1.0",
+  "summary": "LgCommon.",
+  "description": "local compoment : LgCommon.",
+  "homepage": "https://github.com/445948630@qq.com/LgCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liguang": "445948630@qq.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LgCommon/**/*"
+}
