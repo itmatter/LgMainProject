@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BDD28790245580DF00016AC6 /* LgBLEFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BDD28791245580DF00016AC6 /* Build configuration list for PBXAggregateTarget "LgBLEFramework" */;
+			buildPhases = (
+				BDD28794245580F700016AC6 /* ShellScript */,
+			);
+			dependencies = (
+				BDD287962455819800016AC6 /* PBXTargetDependency */,
+				BDD287A22455827700016AC6 /* PBXTargetDependency */,
+			);
+			name = LgBLEFramework;
+			productName = LgBLEFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BDD287802455802000016AC6 /* LgBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD2877F2455802000016AC6 /* LgBLE.m */; };
+		BDD287812455802000016AC6 /* LgBLE.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDD2877E2455802000016AC6 /* LgBLE.h */; };
+		BDD287892455807D00016AC6 /* LgBLE.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD2877E2455802000016AC6 /* LgBLE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDD2878C2455808C00016AC6 /* Helloworld.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD2878A2455808C00016AC6 /* Helloworld.h */; };
+		BDD2878D2455808C00016AC6 /* Helloworld.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD2878B2455808C00016AC6 /* Helloworld.m */; };
+		BDD2878F2455809C00016AC6 /* BleHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD2878E2455809800016AC6 /* BleHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDD287A52455831C00016AC6 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD287A42455831C00016AC6 /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDD287952455819800016AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD287732455802000016AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD2877A2455802000016AC6;
+			remoteInfo = LgBLE;
+		};
+		BDD287A12455827700016AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD287732455802000016AC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD2879A2455820900016AC6;
+			remoteInfo = LgBLEBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BDD287792455802000016AC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BDD287812455802000016AC6 /* LgBLE.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BDD2877B2455802000016AC6 /* libLgBLE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLgBLE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD2877E2455802000016AC6 /* LgBLE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgBLE.h; sourceTree = "<group>"; };
+		BDD2877F2455802000016AC6 /* LgBLE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgBLE.m; sourceTree = "<group>"; };
+		BDD2878A2455808C00016AC6 /* Helloworld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helloworld.h; sourceTree = "<group>"; };
+		BDD2878B2455808C00016AC6 /* Helloworld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helloworld.m; sourceTree = "<group>"; };
+		BDD2878E2455809800016AC6 /* BleHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BleHeader.h; sourceTree = "<group>"; };
+		BDD2879B2455820900016AC6 /* LgBLEBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LgBLEBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD2879D2455820900016AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD287A42455831C00016AC6 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDD287782455802000016AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD287982455820900016AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDD287722455802000016AC6 = {
+			isa = PBXGroup;
+			children = (
+				BDD2877D2455802000016AC6 /* LgBLE */,
+				BDD2879C2455820900016AC6 /* LgBLEBundle */,
+				BDD2877C2455802000016AC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDD2877C2455802000016AC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2877B2455802000016AC6 /* libLgBLE.a */,
+				BDD2879B2455820900016AC6 /* LgBLEBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDD2877D2455802000016AC6 /* LgBLE */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2878E2455809800016AC6 /* BleHeader.h */,
+				BDD2877E2455802000016AC6 /* LgBLE.h */,
+				BDD2877F2455802000016AC6 /* LgBLE.m */,
+				BDD2878A2455808C00016AC6 /* Helloworld.h */,
+				BDD2878B2455808C00016AC6 /* Helloworld.m */,
+			);
+			path = LgBLE;
+			sourceTree = "<group>";
+		};
+		BDD2879C2455820900016AC6 /* LgBLEBundle */ = {
+			isa = PBXGroup;
+			children = (
+				BDD287A32455830A00016AC6 /* Resource */,
+				BDD2879D2455820900016AC6 /* Info.plist */,
+			);
+			path = LgBLEBundle;
+			sourceTree = "<group>";
+		};
+		BDD287A32455830A00016AC6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BDD287A42455831C00016AC6 /* test.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BDD287882455807500016AC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD2878C2455808C00016AC6 /* Helloworld.h in Headers */,
+				BDD2878F2455809C00016AC6 /* BleHeader.h in Headers */,
+				BDD287892455807D00016AC6 /* LgBLE.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BDD2877A2455802000016AC6 /* LgBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD287842455802000016AC6 /* Build configuration list for PBXNativeTarget "LgBLE" */;
+			buildPhases = (
+				BDD287882455807500016AC6 /* Headers */,
+				BDD287772455802000016AC6 /* Sources */,
+				BDD287782455802000016AC6 /* Frameworks */,
+				BDD287792455802000016AC6 /* CopyFiles */,
+				BDD287872455806D00016AC6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LgBLE;
+			productName = LgBLE;
+			productReference = BDD2877B2455802000016AC6 /* libLgBLE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BDD2879A2455820900016AC6 /* LgBLEBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD2879E2455820900016AC6 /* Build configuration list for PBXNativeTarget "LgBLEBundle" */;
+			buildPhases = (
+				BDD287972455820900016AC6 /* Sources */,
+				BDD287982455820900016AC6 /* Frameworks */,
+				BDD287992455820900016AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LgBLEBundle;
+			productName = LgBLEBundle;
+			productReference = BDD2879B2455820900016AC6 /* LgBLEBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDD287732455802000016AC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = lumi;
+				TargetAttributes = {
+					BDD2877A2455802000016AC6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BDD28790245580DF00016AC6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BDD2879A2455820900016AC6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BDD287762455802000016AC6 /* Build configuration list for PBXProject "LgBLE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDD287722455802000016AC6;
+			productRefGroup = BDD2877C2455802000016AC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD2877A2455802000016AC6 /* LgBLE */,
+				BDD28790245580DF00016AC6 /* LgBLEFramework */,
+				BDD2879A2455820900016AC6 /* LgBLEBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDD287992455820900016AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD287A52455831C00016AC6 /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDD287872455806D00016AC6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n";
+		};
+		BDD28794245580F700016AC6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\n    exit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    SF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    SF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    SF_OTHER_PLATFORM=iphonesimulator\nelse\n    SF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\n    SF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n# Build the other platform.\nxcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDD287772455802000016AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD287802455802000016AC6 /* LgBLE.m in Sources */,
+				BDD2878D2455808C00016AC6 /* Helloworld.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD287972455820900016AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDD287962455819800016AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD2877A2455802000016AC6 /* LgBLE */;
+			targetProxy = BDD287952455819800016AC6 /* PBXContainerItemProxy */;
+		};
+		BDD287A22455827700016AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD2879A2455820900016AC6 /* LgBLEBundle */;
+			targetProxy = BDD287A12455827700016AC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDD287822455802000016AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDD287832455802000016AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDD287852455802000016AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDD287862455802000016AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDD28792245580DF00016AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDD28793245580DF00016AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDD2879F2455820900016AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LgBLEBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = lg.LgBLEBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BDD287A02455820900016AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LgBLEBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = lg.LgBLEBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDD287762455802000016AC6 /* Build configuration list for PBXProject "LgBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD287822455802000016AC6 /* Debug */,
+				BDD287832455802000016AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD287842455802000016AC6 /* Build configuration list for PBXNativeTarget "LgBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD287852455802000016AC6 /* Debug */,
+				BDD287862455802000016AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD28791245580DF00016AC6 /* Build configuration list for PBXAggregateTarget "LgBLEFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD28792245580DF00016AC6 /* Debug */,
+				BDD28793245580DF00016AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD2879E2455820900016AC6 /* Build configuration list for PBXNativeTarget "LgBLEBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD2879F2455820900016AC6 /* Debug */,
+				BDD287A02455820900016AC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDD287732455802000016AC6 /* Project object */;
+}

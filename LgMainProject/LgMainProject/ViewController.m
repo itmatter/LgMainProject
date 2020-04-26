@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <LgCommon/LgCommon.h>
+#import <LgBLE.h>
 @interface ViewController ()
 
 @end
@@ -17,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    NSLog(@"%@",[LgBLE frameworkBundle]);
     
     
 }
