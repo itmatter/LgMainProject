@@ -1,0 +1,16 @@
+PODS:
+  - LgCommon (0.1.0)
+
+DEPENDENCIES:
+  - LgCommon (from `../LgComponents/LgCommon`)
+
+EXTERNAL SOURCES:
+  LgCommon:
+    :path: "../LgComponents/LgCommon"
+
+SPEC CHECKSUMS:
+  LgCommon: a90992662fd0013f9fb64d885cefaa88b80f1a42
+
+PODFILE CHECKSUM: c6d11c6c9e05639a9d5a1408120298555b5fbf74
+
+COCOAPODS: 1.9.1

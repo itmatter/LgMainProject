@@ -1,0 +1,22 @@
+{
+  "name": "LgModules",
+  "version": "0.1.0",
+  "summary": "A short description of LgModules.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/445948630@qq.com/LgModules",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "445948630@qq.com": "liguang.li-a1154@aqara.com"
+  },
+  "source": {
+    "git": "https://github.com/445948630@qq.com/LgModules.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LgModules/Classes/**/*"
+}

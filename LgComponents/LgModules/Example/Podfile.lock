@@ -1,0 +1,16 @@
+PODS:
+  - LgModules (0.1.0)
+
+DEPENDENCIES:
+  - LgModules (from `../`)
+
+EXTERNAL SOURCES:
+  LgModules:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LgModules: 4ec3e4a9efee56ef23b72bdb003b60f169e31cbf
+
+PODFILE CHECKSUM: 777d01182f2a8844781ebc16f1f572da0cb1b9cd
+
+COCOAPODS: 1.9.1
