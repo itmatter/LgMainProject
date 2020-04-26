@@ -1,6 +1,0 @@
-framework module LgModules {
-  umbrella header "LgModules-umbrella.h"
-
-  export *
-  module * { export * }
-}

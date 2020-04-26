@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-LgMainProject/Pods-LgMainProject-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/LgCommon/LgCommon.framework
+${BUILT_PRODUCTS_DIR}/LgFramework/LgFramework.framework

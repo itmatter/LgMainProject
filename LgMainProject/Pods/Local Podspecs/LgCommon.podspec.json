@@ -1,9 +1,9 @@
 {
   "name": "LgCommon",
   "version": "0.1.0",
-  "summary": "LgCommon.",
-  "description": "local compoment : LgCommon.",
-  "homepage": "https://github.com/445948630@qq.com/LgCommon",
+  "summary": "A short description of LgCommon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/itmatter/LgMainProject/tree/master/LgComponents/LgCommon",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -15,7 +15,7 @@
     "path": "."
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
   "source_files": "LgCommon/**/*"
 }

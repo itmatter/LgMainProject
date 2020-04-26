@@ -1,16 +1,21 @@
 PODS:
   - LgCommon (0.1.0)
+  - LgFramework (0.1.0)
 
 DEPENDENCIES:
   - LgCommon (from `../LgComponents/LgCommon`)
+  - LgFramework (from `../LgComponents/LgFramework`)
 
 EXTERNAL SOURCES:
   LgCommon:
     :path: "../LgComponents/LgCommon"
+  LgFramework:
+    :path: "../LgComponents/LgFramework"
 
 SPEC CHECKSUMS:
-  LgCommon: a90992662fd0013f9fb64d885cefaa88b80f1a42
+  LgCommon: 392638e5ca469e8bec54e0ccea251339b42c5e4b
+  LgFramework: 3f645fc87f04283a0b3f47e0e1be3c520861c3d4
 
-PODFILE CHECKSUM: c6d11c6c9e05639a9d5a1408120298555b5fbf74
+PODFILE CHECKSUM: 2c781a0b6e8c17f9b6642f369df59cdb5b121cd2
 
 COCOAPODS: 1.9.1

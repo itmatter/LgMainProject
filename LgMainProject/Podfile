@@ -9,8 +9,37 @@ target 'LgMainProject' do
 
 
 
+
 #  pod 'LgModules', :path => '../LgComponents/LgModules'
+
+
+
+   #中间层
+	#公共组件, 通用UI, 方法	Common
    pod 'LgCommon', :path => '../LgComponents/LgCommon'
+
+	#蓝牙组件			BLE
+   pod 'LgFramework', :path => '../LgComponents/LgFramework'
+
+	#Homekit组件		HomeKit
+	#网关组件			Net
+	#音视频组件		Media
+	#.....
+	
+
+   #业务层
+	#首页		Home
+	#设备		Accessory
+	#自动化		Automation		
+	#场景		Scene
+	#我的		Mine
+
+
+
+
+
+
+
 
 
 

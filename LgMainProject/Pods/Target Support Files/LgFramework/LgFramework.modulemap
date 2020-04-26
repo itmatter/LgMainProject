@@ -1,0 +1,6 @@
+framework module LgFramework {
+  umbrella header "LgFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

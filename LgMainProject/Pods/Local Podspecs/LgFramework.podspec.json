@@ -1,0 +1,25 @@
+{
+  "name": "LgFramework",
+  "version": "0.1.0",
+  "summary": "LgFramework",
+  "description": "LgFramework Module.",
+  "homepage": "https://github.com/itmatter/LgFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liguang": "445948630@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/itmatter/LgFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": [
+    "LgFramework",
+    "LgBLE"
+  ]
+}

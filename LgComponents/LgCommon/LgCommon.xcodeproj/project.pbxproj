@@ -10,14 +10,15 @@
 		BDD2872424556A3600016AC6 /* LgCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD2872224556A3600016AC6 /* LgCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDD2872C24556AF500016AC6 /* HelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD2872A24556AF500016AC6 /* HelloWorld.h */; };
 		BDD2872D24556AF500016AC6 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD2872B24556AF500016AC6 /* HelloWorld.m */; };
+		BDD2872F2455754000016AC6 /* LgCommonInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDD2872E2455754000016AC6 /* LgCommonInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDD2871F24556A3600016AC6 /* LgCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LgCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD2872224556A3600016AC6 /* LgCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgCommon.h; sourceTree = "<group>"; };
-		BDD2872324556A3600016AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD2872A24556AF500016AC6 /* HelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
 		BDD2872B24556AF500016AC6 /* HelloWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
+		BDD2872E2455754000016AC6 /* LgCommonInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LgCommonInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				BDD2872224556A3600016AC6 /* LgCommon.h */,
-				BDD2872324556A3600016AC6 /* Info.plist */,
 				BDD2872A24556AF500016AC6 /* HelloWorld.h */,
+				BDD2872E2455754000016AC6 /* LgCommonInfo.plist */,
 				BDD2872B24556AF500016AC6 /* HelloWorld.m */,
 			);
 			path = LgCommon;
@@ -128,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD2872F2455754000016AC6 /* LgCommonInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +271,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LgCommon/Info.plist;
+				INFOPLIST_FILE = LgCommon/LgCommonInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,7 +293,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LgCommon/Info.plist;
+				INFOPLIST_FILE = LgCommon/LgCommonInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
