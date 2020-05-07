@@ -8,7 +8,7 @@
 
 
 架构图
-
+```
 LgMainProject 
 	|	
 	| - LgMainProject (主项目)
@@ -18,3 +18,4 @@ LgMainProject
 			| _ LgFramework (远程仓库)
 			| _ LgPublicService (本地仓库)
 			| _ LgUIKit (本地仓库)
+```
