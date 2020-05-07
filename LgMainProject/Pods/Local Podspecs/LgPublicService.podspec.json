@@ -1,0 +1,26 @@
+{
+  "name": "LgPublicService",
+  "version": "0.1.0",
+  "summary": "A short description of LgPublicService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/itmatter/LgMainProject/tree/master/LgComponents/LgPublicService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liguang": "445948630@qq.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LgPublicService/**/*",
+  "dependencies": {
+    "BeeHive": [
+
+    ]
+  }
+}

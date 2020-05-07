@@ -10,4 +10,8 @@
 
 @implementation Helloworld
 
++ (void)helloworld {
+    
+}
+
 @end

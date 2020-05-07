@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import <LgCommon/LgCommon.h>
-#import <LgBLE.h>
+#import <LgUIKit/LgUIKit.h>
+
 @interface ViewController ()
 
 @end
@@ -18,9 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"%@",[LgBLE frameworkBundle]);
+    //Beehive获取注册的Module服务
+    id< LgUIKitServiceProtocol > service = [[BeeHive shareInstance]
+                                            createService:@protocol(LgUIKitServiceProtocol)];
+    //获取一个View
+    UIView *v =  [service getAView];
+    [self.view addSubview:v];
     
-    
+    v.center = self.view.center;
+    v.backgroundColor = [UIColor redColor];
 }
 
 

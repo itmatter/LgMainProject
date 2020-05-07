@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		15A5B19295563F44CC293A43 /* Pods_LgMainProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6A820290B3278E71A0A2F /* Pods_LgMainProject.framework */; };
-		BDD286D32455643A00016AC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD286D22455643A00016AC6 /* AppDelegate.m */; };
+		BD6F49BC2463E717002A3BC4 /* LgAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6F49BB2463E717002A3BC4 /* LgAppDelegate.m */; };
 		BDD286D62455643A00016AC6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD286D52455643A00016AC6 /* SceneDelegate.m */; };
 		BDD286D92455643A00016AC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD286D82455643A00016AC6 /* ViewController.m */; };
 		BDD286DC2455643A00016AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD286DA2455643A00016AC6 /* Main.storyboard */; };
@@ -19,9 +19,9 @@
 
 /* Begin PBXFileReference section */
 		6016E6E7F0F62451E16EA303 /* Pods-LgMainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LgMainProject.release.xcconfig"; path = "Target Support Files/Pods-LgMainProject/Pods-LgMainProject.release.xcconfig"; sourceTree = "<group>"; };
+		BD6F49BA2463E717002A3BC4 /* LgAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgAppDelegate.h; sourceTree = "<group>"; };
+		BD6F49BB2463E717002A3BC4 /* LgAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgAppDelegate.m; sourceTree = "<group>"; };
 		BDD286CE2455643A00016AC6 /* LgMainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LgMainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDD286D12455643A00016AC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BDD286D22455643A00016AC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BDD286D42455643A00016AC6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		BDD286D52455643A00016AC6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		BDD286D72455643A00016AC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		BDD286D02455643A00016AC6 /* LgMainProject */ = {
 			isa = PBXGroup;
 			children = (
-				BDD286D12455643A00016AC6 /* AppDelegate.h */,
-				BDD286D22455643A00016AC6 /* AppDelegate.m */,
+				BD6F49BA2463E717002A3BC4 /* LgAppDelegate.h */,
+				BD6F49BB2463E717002A3BC4 /* LgAppDelegate.m */,
 				BDD286D42455643A00016AC6 /* SceneDelegate.h */,
 				BDD286D52455643A00016AC6 /* SceneDelegate.m */,
 				BDD286D72455643A00016AC6 /* ViewController.h */,
@@ -174,11 +174,9 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LgMainProject/Pods-LgMainProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LgMainProject/Pods-LgMainProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -215,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD286D92455643A00016AC6 /* ViewController.m in Sources */,
-				BDD286D32455643A00016AC6 /* AppDelegate.m in Sources */,
+				BD6F49BC2463E717002A3BC4 /* LgAppDelegate.m in Sources */,
 				BDD286E42455643D00016AC6 /* main.m in Sources */,
 				BDD286D62455643A00016AC6 /* SceneDelegate.m in Sources */,
 			);

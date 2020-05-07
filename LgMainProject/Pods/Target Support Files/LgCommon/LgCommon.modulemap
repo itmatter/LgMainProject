@@ -1,6 +1,0 @@
-framework module LgCommon {
-  umbrella header "LgCommon-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -197,12 +197,16 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LgCommon/LgCommon.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BeeHive/BeeHive.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LgFramework/LgFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LgPublicService/LgPublicService.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LgUIKit/LgUIKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LgCommon/LgCommon.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BeeHive/BeeHive.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LgFramework/LgFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LgPublicService/LgPublicService.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LgUIKit/LgUIKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

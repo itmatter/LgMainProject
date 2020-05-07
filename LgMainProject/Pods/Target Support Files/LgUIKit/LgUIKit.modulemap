@@ -1,0 +1,6 @@
+framework module LgUIKit {
+  umbrella header "LgUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

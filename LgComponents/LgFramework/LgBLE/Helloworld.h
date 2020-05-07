@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Helloworld : NSObject
 
++ (void)helloworld;
+
 @end
 
 NS_ASSUME_NONNULL_END
