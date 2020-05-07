@@ -3,11 +3,14 @@
 # LgMainProject
 主项目
 
+通过Podfile文件设置对应的module.
+
 # LgComponent
-组件化模块
+组件化模块 
 
+通过spec文件设置每个module的配置信息
 
-架构图
+# 架构图
 ```
 LgMainProject 
 	|	
@@ -19,3 +22,5 @@ LgMainProject
 			| _ LgPublicService (本地仓库)
 			| _ LgUIKit (本地仓库)
 ```
+
+
