@@ -7,27 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD24FEC82486270C0080640A /* LgCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FEC62486270C0080640A /* LgCustomView.h */; };
+		BD24FEC92486270C0080640A /* LgCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FEC72486270C0080640A /* LgCustomView.m */; };
+		BD24FECC2486271F0080640A /* LgCustomTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FECA2486271F0080640A /* LgCustomTableViewCell.h */; };
+		BD24FECD2486271F0080640A /* LgCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FECB2486271F0080640A /* LgCustomTableViewCell.m */; };
+		BD24FED4248627530080640A /* LgCustomLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FED2248627530080640A /* LgCustomLoading.h */; };
+		BD24FED5248627530080640A /* LgCustomLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FED3248627530080640A /* LgCustomLoading.m */; };
+		BD24FED8248627640080640A /* LgCustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FED6248627640080640A /* LgCustomButton.h */; };
+		BD24FED9248627640080640A /* LgCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FED7248627640080640A /* LgCustomButton.m */; };
+		BD24FEDC248627730080640A /* LgCustomAblum.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FEDA248627730080640A /* LgCustomAblum.h */; };
+		BD24FEDD248627730080640A /* LgCustomAblum.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FEDB248627730080640A /* LgCustomAblum.m */; };
+		BD24FEDF248627AD0080640A /* LgCustomViewProcotol.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FEDE248627AD0080640A /* LgCustomViewProcotol.h */; };
+		BD24FEE22486286C0080640A /* LgUIKitService.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FEE1248628120080640A /* LgUIKitService.h */; };
 		BD6F467024639F28002A3BC4 /* LgUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6F466E24639F28002A3BC4 /* LgUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD6F46892463BDC0002A3BC4 /* LgUIKitModule.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6F46872463BDC0002A3BC4 /* LgUIKitModule.h */; };
 		BD6F468A2463BDC0002A3BC4 /* LgUIKitModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6F46882463BDC0002A3BC4 /* LgUIKitModule.m */; };
-		BD6F469D2463BE98002A3BC4 /* LgUIKitService.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6F469B2463BE98002A3BC4 /* LgUIKitService.h */; };
-		BD6F469E2463BE98002A3BC4 /* LgUIKitService.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6F469C2463BE98002A3BC4 /* LgUIKitService.m */; };
-		BD6F49AA2463E4F9002A3BC4 /* LgUIKitServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6F49A92463E4F9002A3BC4 /* LgUIKitServiceProtocol.h */; };
-		BD6F49C32463E8D7002A3BC4 /* TestView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6F49C12463E8D7002A3BC4 /* TestView.h */; };
-		BD6F49C42463E8D7002A3BC4 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6F49C22463E8D7002A3BC4 /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD24FEC62486270C0080640A /* LgCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgCustomView.h; sourceTree = "<group>"; };
+		BD24FEC72486270C0080640A /* LgCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgCustomView.m; sourceTree = "<group>"; };
+		BD24FECA2486271F0080640A /* LgCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgCustomTableViewCell.h; sourceTree = "<group>"; };
+		BD24FECB2486271F0080640A /* LgCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgCustomTableViewCell.m; sourceTree = "<group>"; };
+		BD24FED2248627530080640A /* LgCustomLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgCustomLoading.h; sourceTree = "<group>"; };
+		BD24FED3248627530080640A /* LgCustomLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgCustomLoading.m; sourceTree = "<group>"; };
+		BD24FED6248627640080640A /* LgCustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgCustomButton.h; sourceTree = "<group>"; };
+		BD24FED7248627640080640A /* LgCustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgCustomButton.m; sourceTree = "<group>"; };
+		BD24FEDA248627730080640A /* LgCustomAblum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgCustomAblum.h; sourceTree = "<group>"; };
+		BD24FEDB248627730080640A /* LgCustomAblum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgCustomAblum.m; sourceTree = "<group>"; };
+		BD24FEDE248627AD0080640A /* LgCustomViewProcotol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgCustomViewProcotol.h; sourceTree = "<group>"; };
+		BD24FEE1248628120080640A /* LgUIKitService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgUIKitService.h; sourceTree = "<group>"; };
 		BD6F466B24639F28002A3BC4 /* LgUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LgUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6F466E24639F28002A3BC4 /* LgUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgUIKit.h; sourceTree = "<group>"; };
 		BD6F466F24639F28002A3BC4 /* LgUIKit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LgUIKit.plist; sourceTree = "<group>"; };
 		BD6F46872463BDC0002A3BC4 /* LgUIKitModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgUIKitModule.h; sourceTree = "<group>"; };
 		BD6F46882463BDC0002A3BC4 /* LgUIKitModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgUIKitModule.m; sourceTree = "<group>"; };
-		BD6F469B2463BE98002A3BC4 /* LgUIKitService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgUIKitService.h; sourceTree = "<group>"; };
-		BD6F469C2463BE98002A3BC4 /* LgUIKitService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgUIKitService.m; sourceTree = "<group>"; };
-		BD6F49A92463E4F9002A3BC4 /* LgUIKitServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgUIKitServiceProtocol.h; sourceTree = "<group>"; };
-		BD6F49C12463E8D7002A3BC4 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
-		BD6F49C22463E8D7002A3BC4 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +55,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD24FE9624860C450080640A /* Beehive设置 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FEE0248627E60080640A /* Service实现类 */,
+				BD6F49BE2463E8A0002A3BC4 /* Protocol对外协议 */,
+				BD6F49BD2463E896002A3BC4 /* Module注册 */,
+			);
+			path = "Beehive设置";
+			sourceTree = "<group>";
+		};
+		BD24FE9724860C560080640A /* UIKit基础组件功能 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FEC5248626C80080640A /* View */,
+				BD24FE9C24860C9A0080640A /* Cell */,
+				BD24FE9A24860C8C0080640A /* Button */,
+				BD24FE9924860C830080640A /* Loading */,
+				BD24FE9824860C760080640A /* Ablum */,
+			);
+			path = "UIKit基础组件功能";
+			sourceTree = "<group>";
+		};
+		BD24FE9824860C760080640A /* Ablum */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FEDA248627730080640A /* LgCustomAblum.h */,
+				BD24FEDB248627730080640A /* LgCustomAblum.m */,
+			);
+			path = Ablum;
+			sourceTree = "<group>";
+		};
+		BD24FE9924860C830080640A /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FED2248627530080640A /* LgCustomLoading.h */,
+				BD24FED3248627530080640A /* LgCustomLoading.m */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		BD24FE9A24860C8C0080640A /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FED6248627640080640A /* LgCustomButton.h */,
+				BD24FED7248627640080640A /* LgCustomButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		BD24FE9C24860C9A0080640A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FECA2486271F0080640A /* LgCustomTableViewCell.h */,
+				BD24FECB2486271F0080640A /* LgCustomTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BD24FEC5248626C80080640A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FEC62486270C0080640A /* LgCustomView.h */,
+				BD24FEC72486270C0080640A /* LgCustomView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD24FEE0248627E60080640A /* Service实现类 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FEE1248628120080640A /* LgUIKitService.h */,
+			);
+			path = "Service实现类";
+			sourceTree = "<group>";
+		};
 		BD6F466124639F28002A3BC4 = {
 			isa = PBXGroup;
 			children = (
@@ -60,57 +149,29 @@
 		BD6F466D24639F28002A3BC4 /* LgUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				BD6F49C02463E8B7002A3BC4 /* Common */,
-				BD6F49BF2463E8A5002A3BC4 /* Service */,
-				BD6F49BE2463E8A0002A3BC4 /* Protocol */,
-				BD6F49BD2463E896002A3BC4 /* Module */,
 				BD6F466E24639F28002A3BC4 /* LgUIKit.h */,
 				BD6F466F24639F28002A3BC4 /* LgUIKit.plist */,
+				BD24FE9624860C450080640A /* Beehive设置 */,
+				BD24FE9724860C560080640A /* UIKit基础组件功能 */,
 			);
 			path = LgUIKit;
 			sourceTree = "<group>";
 		};
-		BD6F467624639F6C002A3BC4 /* LgView */ = {
-			isa = PBXGroup;
-			children = (
-				BD6F49C12463E8D7002A3BC4 /* TestView.h */,
-				BD6F49C22463E8D7002A3BC4 /* TestView.m */,
-			);
-			path = LgView;
-			sourceTree = "<group>";
-		};
-		BD6F49BD2463E896002A3BC4 /* Module */ = {
+		BD6F49BD2463E896002A3BC4 /* Module注册 */ = {
 			isa = PBXGroup;
 			children = (
 				BD6F46872463BDC0002A3BC4 /* LgUIKitModule.h */,
 				BD6F46882463BDC0002A3BC4 /* LgUIKitModule.m */,
 			);
-			path = Module;
+			path = "Module注册";
 			sourceTree = "<group>";
 		};
-		BD6F49BE2463E8A0002A3BC4 /* Protocol */ = {
+		BD6F49BE2463E8A0002A3BC4 /* Protocol对外协议 */ = {
 			isa = PBXGroup;
 			children = (
-				BD6F49A92463E4F9002A3BC4 /* LgUIKitServiceProtocol.h */,
+				BD24FEDE248627AD0080640A /* LgCustomViewProcotol.h */,
 			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		BD6F49BF2463E8A5002A3BC4 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				BD6F469B2463BE98002A3BC4 /* LgUIKitService.h */,
-				BD6F469C2463BE98002A3BC4 /* LgUIKitService.m */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		BD6F49C02463E8B7002A3BC4 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				BD6F467624639F6C002A3BC4 /* LgView */,
-			);
-			path = Common;
+			path = "Protocol对外协议";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,11 +181,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD24FED8248627640080640A /* LgCustomButton.h in Headers */,
+				BD24FEDC248627730080640A /* LgCustomAblum.h in Headers */,
 				BD6F467024639F28002A3BC4 /* LgUIKit.h in Headers */,
-				BD6F469D2463BE98002A3BC4 /* LgUIKitService.h in Headers */,
-				BD6F49C32463E8D7002A3BC4 /* TestView.h in Headers */,
-				BD6F49AA2463E4F9002A3BC4 /* LgUIKitServiceProtocol.h in Headers */,
+				BD24FEC82486270C0080640A /* LgCustomView.h in Headers */,
+				BD24FEE22486286C0080640A /* LgUIKitService.h in Headers */,
+				BD24FED4248627530080640A /* LgCustomLoading.h in Headers */,
+				BD24FECC2486271F0080640A /* LgCustomTableViewCell.h in Headers */,
 				BD6F46892463BDC0002A3BC4 /* LgUIKitModule.h in Headers */,
+				BD24FEDF248627AD0080640A /* LgCustomViewProcotol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,9 +261,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD6F49C42463E8D7002A3BC4 /* TestView.m in Sources */,
-				BD6F469E2463BE98002A3BC4 /* LgUIKitService.m in Sources */,
+				BD24FED9248627640080640A /* LgCustomButton.m in Sources */,
 				BD6F468A2463BDC0002A3BC4 /* LgUIKitModule.m in Sources */,
+				BD24FEC92486270C0080640A /* LgCustomView.m in Sources */,
+				BD24FED5248627530080640A /* LgCustomLoading.m in Sources */,
+				BD24FECD2486271F0080640A /* LgCustomTableViewCell.m in Sources */,
+				BD24FEDD248627730080640A /* LgCustomAblum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

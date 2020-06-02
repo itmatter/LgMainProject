@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD24FE39248607570080640A /* LgPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FE37248607570080640A /* LgPublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD24FE5B248607A00080640A /* LgPublicServiceModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FE55248607A00080640A /* LgPublicServiceModule.m */; };
+		BD24FE5C248607A00080640A /* LgPublicServiceModule.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FE56248607A00080640A /* LgPublicServiceModule.h */; };
+		BD24FEF32486292C0080640A /* LgCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FEF12486292C0080640A /* LgCrash.h */; };
+		BD24FEF42486292C0080640A /* LgCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FEF22486292C0080640A /* LgCrash.m */; };
+		BD24FEFB248629400080640A /* LgNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FEF9248629400080640A /* LgNetwork.h */; };
+		BD24FEFC248629400080640A /* LgNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FEFA248629400080640A /* LgNetwork.m */; };
+		BD24FEFF2486294F0080640A /* LgAnimite.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FEFD2486294F0080640A /* LgAnimite.h */; };
+		BD24FF002486294F0080640A /* LgAnimite.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FEFE2486294F0080640A /* LgAnimite.m */; };
+		BD24FF03248629570080640A /* LgUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FF01248629570080640A /* LgUtils.h */; };
+		BD24FF04248629570080640A /* LgUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FF02248629570080640A /* LgUtils.m */; };
+		BD24FF072486298C0080640A /* NSString+LgString.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FF052486298C0080640A /* NSString+LgString.h */; };
+		BD24FF082486298C0080640A /* NSString+LgString.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FF062486298C0080640A /* NSString+LgString.m */; };
+		BD24FF1224862A1D0080640A /* LgPublicService.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FF1124862A180080640A /* LgPublicService.h */; };
+		BD24FF1424862A440080640A /* LgCategoryService.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FF1324862A440080640A /* LgCategoryService.h */; };
+		BD24FF1824862AA80080640A /* LgUtilsProcotol.h in Headers */ = {isa = PBXBuildFile; fileRef = BD24FF1724862AA80080640A /* LgUtilsProcotol.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD24FE34248607570080640A /* LgPublic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LgPublic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD24FE37248607570080640A /* LgPublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgPublic.h; sourceTree = "<group>"; };
+		BD24FE38248607570080640A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD24FE55248607A00080640A /* LgPublicServiceModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LgPublicServiceModule.m; sourceTree = "<group>"; };
+		BD24FE56248607A00080640A /* LgPublicServiceModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LgPublicServiceModule.h; sourceTree = "<group>"; };
+		BD24FEF12486292C0080640A /* LgCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgCrash.h; sourceTree = "<group>"; };
+		BD24FEF22486292C0080640A /* LgCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgCrash.m; sourceTree = "<group>"; };
+		BD24FEF9248629400080640A /* LgNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgNetwork.h; sourceTree = "<group>"; };
+		BD24FEFA248629400080640A /* LgNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgNetwork.m; sourceTree = "<group>"; };
+		BD24FEFD2486294F0080640A /* LgAnimite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgAnimite.h; sourceTree = "<group>"; };
+		BD24FEFE2486294F0080640A /* LgAnimite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgAnimite.m; sourceTree = "<group>"; };
+		BD24FF01248629570080640A /* LgUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgUtils.h; sourceTree = "<group>"; };
+		BD24FF02248629570080640A /* LgUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgUtils.m; sourceTree = "<group>"; };
+		BD24FF052486298C0080640A /* NSString+LgString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LgString.h"; sourceTree = "<group>"; };
+		BD24FF062486298C0080640A /* NSString+LgString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LgString.m"; sourceTree = "<group>"; };
+		BD24FF1124862A180080640A /* LgPublicService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgPublicService.h; sourceTree = "<group>"; };
+		BD24FF1324862A440080640A /* LgCategoryService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgCategoryService.h; sourceTree = "<group>"; };
+		BD24FF1724862AA80080640A /* LgUtilsProcotol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgUtilsProcotol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD24FE31248607570080640A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD24FE2A248607570080640A = {
+			isa = PBXGroup;
+			children = (
+				BD24FE36248607570080640A /* LgPublic */,
+				BD24FE35248607570080640A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD24FE35248607570080640A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FE34248607570080640A /* LgPublic.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD24FE36248607570080640A /* LgPublic */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FE37248607570080640A /* LgPublic.h */,
+				BD24FE38248607570080640A /* Info.plist */,
+				BD24FEA024860CD90080640A /* Beehive设置 */,
+				BD24FEA124860CEA0080640A /* Common公共组件功能 */,
+			);
+			path = LgPublic;
+			sourceTree = "<group>";
+		};
+		BD24FE51248607A00080640A /* Service方法实现 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FF1124862A180080640A /* LgPublicService.h */,
+			);
+			path = "Service方法实现";
+			sourceTree = "<group>";
+		};
+		BD24FE54248607A00080640A /* Module注册 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FE56248607A00080640A /* LgPublicServiceModule.h */,
+				BD24FE55248607A00080640A /* LgPublicServiceModule.m */,
+			);
+			path = "Module注册";
+			sourceTree = "<group>";
+		};
+		BD24FE57248607A00080640A /* Procotol对外协议 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FF1724862AA80080640A /* LgUtilsProcotol.h */,
+			);
+			path = "Procotol对外协议";
+			sourceTree = "<group>";
+		};
+		BD24FEA024860CD90080640A /* Beehive设置 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FE54248607A00080640A /* Module注册 */,
+				BD24FE57248607A00080640A /* Procotol对外协议 */,
+				BD24FE51248607A00080640A /* Service方法实现 */,
+			);
+			path = "Beehive设置";
+			sourceTree = "<group>";
+		};
+		BD24FEA124860CEA0080640A /* Common公共组件功能 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FEA624860D0B0080640A /* Category扩展 */,
+				BD24FEA524860D050080640A /* Utils工具 */,
+				BD24FEA424860CF70080640A /* Network网络组件 */,
+				BD24FEA324860CF50080640A /* Animate动画组件 */,
+				BD24FEA224860CF30080640A /* Crash奔溃上报处理 */,
+			);
+			path = "Common公共组件功能";
+			sourceTree = "<group>";
+		};
+		BD24FEA224860CF30080640A /* Crash奔溃上报处理 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FEF12486292C0080640A /* LgCrash.h */,
+				BD24FEF22486292C0080640A /* LgCrash.m */,
+			);
+			path = "Crash奔溃上报处理";
+			sourceTree = "<group>";
+		};
+		BD24FEA324860CF50080640A /* Animate动画组件 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FEFD2486294F0080640A /* LgAnimite.h */,
+				BD24FEFE2486294F0080640A /* LgAnimite.m */,
+			);
+			path = "Animate动画组件";
+			sourceTree = "<group>";
+		};
+		BD24FEA424860CF70080640A /* Network网络组件 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FEF9248629400080640A /* LgNetwork.h */,
+				BD24FEFA248629400080640A /* LgNetwork.m */,
+			);
+			path = "Network网络组件";
+			sourceTree = "<group>";
+		};
+		BD24FEA524860D050080640A /* Utils工具 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FF01248629570080640A /* LgUtils.h */,
+				BD24FF02248629570080640A /* LgUtils.m */,
+			);
+			path = "Utils工具";
+			sourceTree = "<group>";
+		};
+		BD24FEA624860D0B0080640A /* Category扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				BD24FF1324862A440080640A /* LgCategoryService.h */,
+				BD24FF052486298C0080640A /* NSString+LgString.h */,
+				BD24FF062486298C0080640A /* NSString+LgString.m */,
+			);
+			path = "Category扩展";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BD24FE2F248607570080640A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD24FF072486298C0080640A /* NSString+LgString.h in Headers */,
+				BD24FF03248629570080640A /* LgUtils.h in Headers */,
+				BD24FE5C248607A00080640A /* LgPublicServiceModule.h in Headers */,
+				BD24FEFF2486294F0080640A /* LgAnimite.h in Headers */,
+				BD24FEF32486292C0080640A /* LgCrash.h in Headers */,
+				BD24FF1824862AA80080640A /* LgUtilsProcotol.h in Headers */,
+				BD24FEFB248629400080640A /* LgNetwork.h in Headers */,
+				BD24FF1424862A440080640A /* LgCategoryService.h in Headers */,
+				BD24FF1224862A1D0080640A /* LgPublicService.h in Headers */,
+				BD24FE39248607570080640A /* LgPublic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BD24FE33248607570080640A /* LgPublic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD24FE3C248607570080640A /* Build configuration list for PBXNativeTarget "LgPublic" */;
+			buildPhases = (
+				BD24FE2F248607570080640A /* Headers */,
+				BD24FE30248607570080640A /* Sources */,
+				BD24FE31248607570080640A /* Frameworks */,
+				BD24FE32248607570080640A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LgPublic;
+			productName = LgPublic;
+			productReference = BD24FE34248607570080640A /* LgPublic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD24FE2B248607570080640A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = liguang;
+				TargetAttributes = {
+					BD24FE33248607570080640A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BD24FE2E248607570080640A /* Build configuration list for PBXProject "LgPublic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD24FE2A248607570080640A;
+			productRefGroup = BD24FE35248607570080640A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD24FE33248607570080640A /* LgPublic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD24FE32248607570080640A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD24FE30248607570080640A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD24FF04248629570080640A /* LgUtils.m in Sources */,
+				BD24FEFC248629400080640A /* LgNetwork.m in Sources */,
+				BD24FEF42486292C0080640A /* LgCrash.m in Sources */,
+				BD24FF002486294F0080640A /* LgAnimite.m in Sources */,
+				BD24FF082486298C0080640A /* NSString+LgString.m in Sources */,
+				BD24FE5B248607A00080640A /* LgPublicServiceModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD24FE3A248607570080640A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD24FE3B248607570080640A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD24FE3D248607570080640A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LgPublic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lg.LgPublic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BD24FE3E248607570080640A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LgPublic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lg.LgPublic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD24FE2E248607570080640A /* Build configuration list for PBXProject "LgPublic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD24FE3A248607570080640A /* Debug */,
+				BD24FE3B248607570080640A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD24FE3C248607570080640A /* Build configuration list for PBXNativeTarget "LgPublic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD24FE3D248607570080640A /* Debug */,
+				BD24FE3E248607570080640A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD24FE2B248607570080640A /* Project object */;
+}

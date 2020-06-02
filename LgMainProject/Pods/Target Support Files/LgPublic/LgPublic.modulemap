@@ -1,0 +1,6 @@
+framework module LgPublic {
+  umbrella header "LgPublic-umbrella.h"
+
+  export *
+  module * { export * }
+}

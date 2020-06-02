@@ -19,7 +19,10 @@
   },
   "source_files": "LgUIKit/**/*",
   "dependencies": {
-    "LgPublicService": [
+    "LgPublic": [
+
+    ],
+    "BeeHive": [
 
     ]
   }

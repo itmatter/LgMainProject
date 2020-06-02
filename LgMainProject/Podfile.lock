@@ -1,14 +1,15 @@
 PODS:
   - BeeHive (1.6.0)
   - LgFramework (0.1.0)
-  - LgPublicService (0.1.0):
+  - LgPublic (0.1.0):
     - BeeHive
   - LgUIKit (0.1.0):
-    - LgPublicService
+    - BeeHive
+    - LgPublic
 
 DEPENDENCIES:
   - LgFramework (from `../LgComponents/LgFramework`)
-  - LgPublicService (from `../LgComponents/LgPublicService`)
+  - LgPublic (from `../LgComponents/LgPublic`)
   - LgUIKit (from `../LgComponents/LgUIKit`)
 
 SPEC REPOS:
@@ -18,17 +19,17 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   LgFramework:
     :path: "../LgComponents/LgFramework"
-  LgPublicService:
-    :path: "../LgComponents/LgPublicService"
+  LgPublic:
+    :path: "../LgComponents/LgPublic"
   LgUIKit:
     :path: "../LgComponents/LgUIKit"
 
 SPEC CHECKSUMS:
   BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
   LgFramework: 3f645fc87f04283a0b3f47e0e1be3c520861c3d4
-  LgPublicService: fce9a501eef56297ca408581cd84b569f08b6219
-  LgUIKit: 11711cf4193d8c85d45b014ed6261a5b610048b5
+  LgPublic: 995ef62dd85fd427a64092d8c666c9883d1ef530
+  LgUIKit: 49a1208fccfe768c5a798e897ca0ca949352bd73
 
-PODFILE CHECKSUM: 498d4fd5a928b1ba58a4449d2f2a259f2df6197a
+PODFILE CHECKSUM: cbfc7507da529023405e6d328455d601ed0fa28d
 
 COCOAPODS: 1.9.1

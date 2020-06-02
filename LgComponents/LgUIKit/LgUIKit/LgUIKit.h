@@ -4,24 +4,13 @@
 //
 //  Created by lumi on 2020/5/7.
 //  Copyright © 2020 lumi. All rights reserved.
-//
+//  
 
 #import <Foundation/Foundation.h>
-
-
+#import <BeeHive/BeeHive.h>
 
 ///对外协议
-#import "LgUIKitServiceProtocol.h"
-
-///注册模块
-#import "LgUIKitModule.h"
-
-///协议实现
-#import "LgUIKitService.h"
-
-///内在核心文件
-#import "TestView.h"
-
+#import "LgCustomViewProcotol.h"
 
 //! Project version number for LgUIKit.
 FOUNDATION_EXPORT double LgUIKitVersionNumber;

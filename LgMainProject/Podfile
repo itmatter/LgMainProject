@@ -9,7 +9,7 @@ target 'LgMainProject' do
   use_frameworks!
 
    #中间层
-   pod 'LgPublicService', :path => '../LgComponents/LgPublicService'	
+   pod 'LgPublic', :path => '../LgComponents/LgPublic'	
 
    #公共组件
    pod 'LgUIKit', :path => '../LgComponents/LgUIKit'

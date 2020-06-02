@@ -199,13 +199,13 @@ fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/BeeHive/BeeHive.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LgFramework/LgFramework.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/LgPublicService/LgPublicService.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LgPublic/LgPublic.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LgUIKit/LgUIKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/BeeHive/BeeHive.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LgFramework/LgFramework.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/LgPublicService/LgPublicService.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LgPublic/LgPublic.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LgUIKit/LgUIKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
