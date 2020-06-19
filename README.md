@@ -19,7 +19,7 @@ LgMainProject
 	| - LgComponents (组件)
 			| 
 			| _ LgFramework (远程仓库)
-			| _ LgPublicService (本地仓库)
+			| _ LgPublic (本地仓库)
 			| _ LgUIKit (本地仓库)
 ```
 
