@@ -22,7 +22,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
 
-    
+
     //Beehive获取注册的Module服务
     id< LgCustomViewProcotol  > service = [[BeeHive shareInstance] createService:@protocol(LgCustomViewProcotol)];
     //获取一个View

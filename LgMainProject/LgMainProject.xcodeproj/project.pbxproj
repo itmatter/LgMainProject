@@ -19,9 +19,9 @@
 		BD24FDA22485F8AE0080640A /* MVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FD852485F8AD0080640A /* MVPView.m */; };
 		BD24FDA32485F8AE0080640A /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FD882485F8AD0080640A /* MVVMViewModel.m */; };
 		BD24FDA42485F8AE0080640A /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FD8A2485F8AD0080640A /* MVVMViewController.m */; };
-		BD24FDA52485F8AE0080640A /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FD8C2485F8AD0080640A /* MVVMView.m */; };
 		BD24FDB92485FA350080640A /* BeehiveDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FDB82485FA350080640A /* BeehiveDemoViewController.m */; };
 		BD24FDBE2485FCBD0080640A /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = BD24FDBD2485FCBD0080640A /* ReadMe */; };
+		BD24FF5F24863E260080640A /* MVVMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24FF5E24863E260080640A /* MVVMCell.m */; };
 		BD6F49BC2463E717002A3BC4 /* LgAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6F49BB2463E717002A3BC4 /* LgAppDelegate.m */; };
 		BDD286D62455643A00016AC6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD286D52455643A00016AC6 /* SceneDelegate.m */; };
 		BDD286D92455643A00016AC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD286D82455643A00016AC6 /* ViewController.m */; };
@@ -54,14 +54,14 @@
 		BD24FD852485F8AD0080640A /* MVPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPView.m; sourceTree = "<group>"; };
 		BD24FD862485F8AD0080640A /* MVPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPModel.h; sourceTree = "<group>"; };
 		BD24FD882485F8AD0080640A /* MVVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
-		BD24FD892485F8AD0080640A /* MVVMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
 		BD24FD8A2485F8AD0080640A /* MVVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
 		BD24FD8B2485F8AD0080640A /* MVVMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
-		BD24FD8C2485F8AD0080640A /* MVVMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
 		BD24FD8D2485F8AD0080640A /* MVVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
 		BD24FDB72485FA350080640A /* BeehiveDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeehiveDemoViewController.h; sourceTree = "<group>"; };
 		BD24FDB82485FA350080640A /* BeehiveDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeehiveDemoViewController.m; sourceTree = "<group>"; };
 		BD24FDBD2485FCBD0080640A /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		BD24FF5D24863E260080640A /* MVVMCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMCell.h; sourceTree = "<group>"; };
+		BD24FF5E24863E260080640A /* MVVMCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMCell.m; sourceTree = "<group>"; };
 		BD6F49BA2463E717002A3BC4 /* LgAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LgAppDelegate.h; sourceTree = "<group>"; };
 		BD6F49BB2463E717002A3BC4 /* LgAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LgAppDelegate.m; sourceTree = "<group>"; };
 		BDD286CE2455643A00016AC6 /* LgMainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LgMainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,7 +166,7 @@
 			children = (
 				BD24FDB42485F9DE0080640A /* C */,
 				BD24FDB32485F9DA0080640A /* V */,
-				BD24FDB22485F9D50080640A /* M */,
+				BD24FDB22485F9D50080640A /* VM */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -234,20 +234,20 @@
 			path = C;
 			sourceTree = "<group>";
 		};
-		BD24FDB22485F9D50080640A /* M */ = {
+		BD24FDB22485F9D50080640A /* VM */ = {
 			isa = PBXGroup;
 			children = (
 				BD24FD8D2485F8AD0080640A /* MVVMViewModel.h */,
 				BD24FD882485F8AD0080640A /* MVVMViewModel.m */,
 			);
-			path = M;
+			path = VM;
 			sourceTree = "<group>";
 		};
 		BD24FDB32485F9DA0080640A /* V */ = {
 			isa = PBXGroup;
 			children = (
-				BD24FD892485F8AD0080640A /* MVVMView.h */,
-				BD24FD8C2485F8AD0080640A /* MVVMView.m */,
+				BD24FF5D24863E260080640A /* MVVMCell.h */,
+				BD24FF5E24863E260080640A /* MVVMCell.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -449,9 +449,9 @@
 				BD24FDA12485F8AE0080640A /* MVPViewController.m in Sources */,
 				BD24FD9A2485F8AE0080640A /* MVCView.m in Sources */,
 				BD6F49BC2463E717002A3BC4 /* LgAppDelegate.m in Sources */,
-				BD24FDA52485F8AE0080640A /* MVVMView.m in Sources */,
 				BD24FD9B2485F8AE0080640A /* MVCModel.m in Sources */,
 				BD24FDA32485F8AE0080640A /* MVVMViewModel.m in Sources */,
+				BD24FF5F24863E260080640A /* MVVMCell.m in Sources */,
 				BDD286E42455643D00016AC6 /* main.m in Sources */,
 				BDD286D62455643A00016AC6 /* SceneDelegate.m in Sources */,
 			);

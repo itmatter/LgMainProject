@@ -13,6 +13,7 @@
 @interface MVCViewController ()
 @property (nonatomic, strong) UILabel *demandDes;//需求描述
 @property (nonatomic, strong) MVCView *mvcView;
+@property (nonatomic, strong) MVCModel *model;
 @end
 
 @implementation MVCViewController
@@ -23,12 +24,13 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
     //创建模型数据, 赋值
-    MVCModel *model = [[MVCModel alloc] init];
-    model.viewColor = [self getRandomColor];
+    self.model = [[MVCModel alloc] init];
+    self.model.viewColor = [self getRandomColor];
     
     //模型赋值
-    self.mvcView.model = model;
+    self.mvcView.model = self.model;
 }
 
 #pragma mark - UI

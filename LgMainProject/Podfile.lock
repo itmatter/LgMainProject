@@ -6,15 +6,21 @@ PODS:
   - LgUIKit (0.1.0):
     - BeeHive
     - LgPublic
+  - ReactiveCocoa (10.3.0):
+    - ReactiveSwift (~> 6.2)
+  - ReactiveSwift (6.3.0)
 
 DEPENDENCIES:
   - LgFramework (from `../LgComponents/LgFramework`)
   - LgPublic (from `../LgComponents/LgPublic`)
   - LgUIKit (from `../LgComponents/LgUIKit`)
+  - ReactiveCocoa
 
 SPEC REPOS:
   trunk:
     - BeeHive
+    - ReactiveCocoa
+    - ReactiveSwift
 
 EXTERNAL SOURCES:
   LgFramework:
@@ -29,7 +35,9 @@ SPEC CHECKSUMS:
   LgFramework: 3f645fc87f04283a0b3f47e0e1be3c520861c3d4
   LgPublic: 995ef62dd85fd427a64092d8c666c9883d1ef530
   LgUIKit: 49a1208fccfe768c5a798e897ca0ca949352bd73
+  ReactiveCocoa: 083ae559e6f588ce519cab412ea119b431c26a24
+  ReactiveSwift: 7937f26ec18d555e2a99352bd0a8b2817d1f042d
 
-PODFILE CHECKSUM: cbfc7507da529023405e6d328455d601ed0fa28d
+PODFILE CHECKSUM: 6ea8846ba3126ec70d7f1ef605b5f1f748e3aead
 
 COCOAPODS: 1.9.1

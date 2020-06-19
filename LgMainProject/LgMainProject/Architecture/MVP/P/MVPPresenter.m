@@ -42,19 +42,15 @@
 }
 
 - (void)mvpDoSomething {
+    //初始化模型
     MVPModel *model = [[MVPModel alloc] init];
-    
-//    //正常项目写法
-//    model.viewColor = [self.colorManager randomColor];
-//    model.viewSize = [self.sizeManager randomSizeWithMaxWidth:300 maxHeight:300];
-    
     
     //模块化项目写法
     id< LgUtilsProcotol > service = [[BeeHive shareInstance] createService:@protocol(LgUtilsProcotol)];
     model.viewColor = [service randomColor];
     model.viewSize = [service randomSizeWithMaxWidth:300 maxHeight:300];
     
-    
+    //View处理
     self.viewController.mvpView.model = model;
     self.viewController.mvpView.center = self.viewController.view.center;
 }

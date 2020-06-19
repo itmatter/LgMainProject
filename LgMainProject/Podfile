@@ -17,4 +17,10 @@ target 'LgMainProject' do
    #SDK库
    pod 'LgFramework', :path => '../LgComponents/LgFramework'
 
+
+
+   #第三方组件
+   pod 'ReactiveCocoa'
+
+
 end
