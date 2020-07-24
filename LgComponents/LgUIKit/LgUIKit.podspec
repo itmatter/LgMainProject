@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
                        
+  s.homepage         = 'https://github.com/itmatter/LgMainProject/tree/master/LgComponents/LgPublic'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liguang' => '445948630@qq.com' }
 
