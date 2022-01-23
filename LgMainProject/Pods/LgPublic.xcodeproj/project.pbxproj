@@ -12,7 +12,6 @@
 		25FC796D0620D56115D749C84006FC12 /* LgPublic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 229AC185FEC150C1077B7C8EECFF2789 /* LgPublic-dummy.m */; };
 		44207878A7ECFD1E53BA7DF9E10E55B4 /* LgUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B56509AF4262C326B58C2298EEBD94E /* LgUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4491E1DF3E544F6C18AEA2F99B854520 /* LgPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 243EE9018C51F0A99E88E9F25502A8C1 /* LgPublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BF1A39F89489CBFC144060B915DDB66 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = CF46E11CB265DBF83D3716485F2B3FC5 /* Info.plist */; };
 		787ADA348F50B2559F31EDD3E1B5BAE8 /* NSString+LgString.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DCC7796A59A08BCF88A07F915A9318 /* NSString+LgString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86FB6FEF6B036FF63A2B4FE9FA80A654 /* NSString+LgString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B0BFF2AEA3BD3A3FDCBDE14D205CC /* NSString+LgString.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		912BF38CDD0C75C9A66C1CB5D70A0129 /* LgCategoryService.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE4227D00BE992BD8BED4072E6F12DA /* LgCategoryService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,9 +32,16 @@
 /* Begin PBXContainerItemProxy section */
 		2631891AAFA85FFD3760275B1B62B577 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5B3C8B35C03D41991626B15794129634 /* BeeHive.xcodeproj */;
+			containerPortal = 5B3C8B35C03D41991626B15794129634 /* BeeHive */;
 			proxyType = 1;
 			remoteGlobalIDString = A23CACC32D8422184E058740A7B50C60;
+			remoteInfo = BeeHive;
+		};
+		837E8728279D2DBB0012F883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B3C8B35C03D41991626B15794129634 /* BeeHive */;
+			proxyType = 2;
+			remoteGlobalIDString = 37F31C957CA0D7555A8DDD43A50EC1C1;
 			remoteInfo = BeeHive;
 		};
 /* End PBXContainerItemProxy section */
@@ -54,7 +60,7 @@
 		3BA9EA4A0C2CD38E2278C44C84F66C25 /* LgCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LgCrash.m; sourceTree = "<group>"; };
 		3CCAD4716854A507055D232D19DA3515 /* LgAnimite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LgAnimite.h; sourceTree = "<group>"; };
 		401D2ED33DE70DB060E4197ADE3C6C51 /* LgPublicServiceModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LgPublicServiceModule.m; sourceTree = "<group>"; };
-		4E3C79E595E9671675F3155D5EE62856 /* LgPublic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LgPublic.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4E3C79E595E9671675F3155D5EE62856 /* LgPublic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LgPublic.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		55555F2BC85B7F0C737D55CEAAD57437 /* LgPublic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LgPublic.modulemap; sourceTree = "<group>"; };
 		5A4B0BFF2AEA3BD3A3FDCBDE14D205CC /* NSString+LgString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LgString.m"; sourceTree = "<group>"; };
 		5B3C8B35C03D41991626B15794129634 /* BeeHive */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BeeHive; path = BeeHive.xcodeproj; sourceTree = "<group>"; };
@@ -69,7 +75,7 @@
 		CD2723366D4108A238B2C9EADAAA54B8 /* LgPublic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LgPublic-umbrella.h"; sourceTree = "<group>"; };
 		CF46E11CB265DBF83D3716485F2B3FC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = LgPublic/Info.plist; sourceTree = "<group>"; };
 		DFE4227D00BE992BD8BED4072E6F12DA /* LgCategoryService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LgCategoryService.h; sourceTree = "<group>"; };
-		F3E18269636F5CD62608B52766F02859 /* LgPublic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LgPublic.framework; path = LgPublic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E18269636F5CD62608B52766F02859 /* LgPublic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LgPublic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +98,6 @@
 				11DCC7796A59A08BCF88A07F915A9318 /* NSString+LgString.h */,
 				5A4B0BFF2AEA3BD3A3FDCBDE14D205CC /* NSString+LgString.m */,
 			);
-			name = "Category扩展";
 			path = "Category扩展";
 			sourceTree = "<group>";
 		};
@@ -127,7 +132,6 @@
 				2C2D513A7AA6F918A57E5DD88E4C6195 /* LgPublicServiceModule.h */,
 				401D2ED33DE70DB060E4197ADE3C6C51 /* LgPublicServiceModule.m */,
 			);
-			name = "Module注册";
 			path = "Module注册";
 			sourceTree = "<group>";
 		};
@@ -144,7 +148,6 @@
 			children = (
 				91B4D3F71EC92E7C2AA0E7EC984430DD /* LgPublicService.h */,
 			);
-			name = "Service方法实现";
 			path = "Service方法实现";
 			sourceTree = "<group>";
 		};
@@ -164,7 +167,6 @@
 				9B56509AF4262C326B58C2298EEBD94E /* LgUtils.h */,
 				736C8A89CB26B23F900166E2D6B6D0C9 /* LgUtils.m */,
 			);
-			name = "Utils工具";
 			path = "Utils工具";
 			sourceTree = "<group>";
 		};
@@ -186,7 +188,6 @@
 			children = (
 				2939AE12A715D114FE98453A77244B18 /* LgUtilsProcotol.h */,
 			);
-			name = "Procotol对外协议";
 			path = "Procotol对外协议";
 			sourceTree = "<group>";
 		};
@@ -207,13 +208,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		837E8722279D2D930012F883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837E8729279D2DBB0012F883 /* BeeHive.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		96BFEF0366C4E4DADEB46734B4045424 /* Crash奔溃上报处理 */ = {
 			isa = PBXGroup;
 			children = (
 				087C0A6FC03E982E5439FD30D0D88AFB /* LgCrash.h */,
 				3BA9EA4A0C2CD38E2278C44C84F66C25 /* LgCrash.m */,
 			);
-			name = "Crash奔溃上报处理";
 			path = "Crash奔溃上报处理";
 			sourceTree = "<group>";
 		};
@@ -223,7 +231,6 @@
 				BC0132BE171AC087D4EB26B5A1EF9638 /* LgNetwork.h */,
 				7023522324503365A1837691D5DBCF11 /* LgNetwork.m */,
 			);
-			name = "Network网络组件";
 			path = "Network网络组件";
 			sourceTree = "<group>";
 		};
@@ -241,7 +248,6 @@
 				3CCAD4716854A507055D232D19DA3515 /* LgAnimite.h */,
 				B28B39F96D9D52FA276194858D8CE6DD /* LgAnimite.m */,
 			);
-			name = "Animate动画组件";
 			path = "Animate动画组件";
 			sourceTree = "<group>";
 		};
@@ -333,6 +339,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 837E8722279D2D930012F883 /* Products */;
 					ProjectRef = 5B3C8B35C03D41991626B15794129634 /* BeeHive */;
 				},
 			);
@@ -342,6 +349,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		837E8729279D2DBB0012F883 /* BeeHive.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BeeHive.framework;
+			remoteRef = 837E8728279D2DBB0012F883 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AA0998F66823E5A8F0BFA986E166DF05 /* Resources */ = {
@@ -358,7 +375,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BF1A39F89489CBFC144060B915DDB66 /* Info.plist in Sources */,
 				A88EA2C28BDA4ED96EA9E4AE136A27BD /* LgAnimite.m in Sources */,
 				06206522298CE45DAF9114ABBE63296E /* LgCrash.m in Sources */,
 				BA1C0693C133C7C764B630FA086CD56B /* LgNetwork.m in Sources */,

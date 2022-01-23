@@ -18,7 +18,6 @@
 		64812B62FA50699A74DEE19CEC654214 /* LgCustomLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8657883147B6978D4A846599EDA67E /* LgCustomLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		651E50280A844E87A5E201F240ACAD9A /* LgCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDF16268F1A270482977F7E2DA08DD4 /* LgCustomButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		906D12C5E27EEE8EC2D2D8604E2A11AA /* LgCustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F745A1D12FF736F0B1BE2758BB866451 /* LgCustomButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A82BFCEF8494E74029D6753BB0A3B983 /* LgUIKit.plist in Sources */ = {isa = PBXBuildFile; fileRef = 32751A06F42C5D9522B9A0E01E27F7E5 /* LgUIKit.plist */; };
 		B44844826AE4CC4D900494D3EABD99A4 /* LgCustomLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = F127823F7F1ECD3EE21285F1CBF0DCDA /* LgCustomLoading.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C2266E979910500BA8B5224C5A21A29D /* LgCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F05E0F2848F59DDC95C13967E56076 /* LgCustomTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C2A856DDC70E8E7B6DC55471289C598D /* LgUIKitService.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6429966E5C4F6FA4EF7EB3931ECB3D /* LgUIKitService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,23 +32,37 @@
 /* Begin PBXContainerItemProxy section */
 		3B2A039686D6FC8DF50104212E0CFE35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8B38B129AECD54A352809FA86ABD6AC7 /* BeeHive.xcodeproj */;
+			containerPortal = 8B38B129AECD54A352809FA86ABD6AC7 /* BeeHive */;
 			proxyType = 1;
 			remoteGlobalIDString = A23CACC32D8422184E058740A7B50C60;
 			remoteInfo = BeeHive;
 		};
 		685618DFBF2F4468DA22384D6F24FB55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3E6C8DAF79B18574C613F52D85851961 /* LgPublic.xcodeproj */;
+			containerPortal = 3E6C8DAF79B18574C613F52D85851961 /* LgPublic */;
 			proxyType = 1;
 			remoteGlobalIDString = 0CDFB12B0EBE47BE05D25B6642837088;
+			remoteInfo = LgPublic;
+		};
+		837E872A279D2DD30012F883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B38B129AECD54A352809FA86ABD6AC7 /* BeeHive */;
+			proxyType = 2;
+			remoteGlobalIDString = 37F31C957CA0D7555A8DDD43A50EC1C1;
+			remoteInfo = BeeHive;
+		};
+		837E872C279D2DD30012F883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E6C8DAF79B18574C613F52D85851961 /* LgPublic */;
+			proxyType = 2;
+			remoteGlobalIDString = F3E18269636F5CD62608B52766F02859;
 			remoteInfo = LgPublic;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03827A7EA21E0DD5E9253EC99F7AE387 /* LgCustomAblum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LgCustomAblum.h; sourceTree = "<group>"; };
-		08F09C660E6E09DFB9808662CC178683 /* LgUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LgUIKit.framework; path = LgUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F09C660E6E09DFB9808662CC178683 /* LgUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LgUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8657883147B6978D4A846599EDA67E /* LgCustomLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LgCustomLoading.h; sourceTree = "<group>"; };
 		2E190B8D5010BBA8D164DFC8D055F5AA /* LgUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LgUIKit.h; path = LgUIKit/LgUIKit.h; sourceTree = "<group>"; };
 		32009A45075A82C84CC3B9F5954FE60C /* LgCustomTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LgCustomTableViewCell.h; sourceTree = "<group>"; };
@@ -73,7 +86,7 @@
 		CF6225E3DEA6E3DA3E78EBD3FBA8B6E0 /* LgUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LgUIKit-prefix.pch"; sourceTree = "<group>"; };
 		D4A2E6FBC448586FA70FE0ADCBF609BB /* LgCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LgCustomView.h; sourceTree = "<group>"; };
 		DB6429966E5C4F6FA4EF7EB3931ECB3D /* LgUIKitService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LgUIKitService.h; sourceTree = "<group>"; };
-		E21AC84953281F5358217BEC9ABC01CC /* LgUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LgUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E21AC84953281F5358217BEC9ABC01CC /* LgUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LgUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E47EE2D1D780E8428F38E04E2D2C871F /* LgCustomViewProcotol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LgCustomViewProcotol.h; sourceTree = "<group>"; };
 		F127823F7F1ECD3EE21285F1CBF0DCDA /* LgCustomLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LgCustomLoading.m; sourceTree = "<group>"; };
 		F745A1D12FF736F0B1BE2758BB866451 /* LgCustomButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LgCustomButton.h; sourceTree = "<group>"; };
@@ -110,7 +123,6 @@
 				B79B307F492D432A3F6E6BCCC7784EDE /* LgUIKitModule.h */,
 				4A158BC2BC79DDF8542BEBE6D85E7AD8 /* LgUIKitModule.m */,
 			);
-			name = "Module注册";
 			path = "Module注册";
 			sourceTree = "<group>";
 		};
@@ -120,7 +132,6 @@
 				0F8657883147B6978D4A846599EDA67E /* LgCustomLoading.h */,
 				F127823F7F1ECD3EE21285F1CBF0DCDA /* LgCustomLoading.m */,
 			);
-			name = Loading;
 			path = Loading;
 			sourceTree = "<group>";
 		};
@@ -129,7 +140,6 @@
 			children = (
 				DB6429966E5C4F6FA4EF7EB3931ECB3D /* LgUIKitService.h */,
 			);
-			name = "Service实现类";
 			path = "Service实现类";
 			sourceTree = "<group>";
 		};
@@ -149,7 +159,6 @@
 				F745A1D12FF736F0B1BE2758BB866451 /* LgCustomButton.h */,
 				7DDF16268F1A270482977F7E2DA08DD4 /* LgCustomButton.m */,
 			);
-			name = Button;
 			path = Button;
 			sourceTree = "<group>";
 		};
@@ -166,12 +175,27 @@
 			path = "LgUIKit/UIKit基础组件功能";
 			sourceTree = "<group>";
 		};
+		837E8724279D2D930012F883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837E872D279D2DD30012F883 /* LgPublic.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		837E8726279D2D930012F883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837E872B279D2DD30012F883 /* BeeHive.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8F6EF5707BD1B3185B6E94D8B8FB8D08 /* Protocol对外协议 */ = {
 			isa = PBXGroup;
 			children = (
 				E47EE2D1D780E8428F38E04E2D2C871F /* LgCustomViewProcotol.h */,
 			);
-			name = "Protocol对外协议";
 			path = "Protocol对外协议";
 			sourceTree = "<group>";
 		};
@@ -218,7 +242,6 @@
 				03827A7EA21E0DD5E9253EC99F7AE387 /* LgCustomAblum.h */,
 				9B718A7868C5EE0ADCE7CBD0467F500D /* LgCustomAblum.m */,
 			);
-			name = Ablum;
 			path = Ablum;
 			sourceTree = "<group>";
 		};
@@ -236,7 +259,6 @@
 				32009A45075A82C84CC3B9F5954FE60C /* LgCustomTableViewCell.h */,
 				75F05E0F2848F59DDC95C13967E56076 /* LgCustomTableViewCell.m */,
 			);
-			name = Cell;
 			path = Cell;
 			sourceTree = "<group>";
 		};
@@ -246,7 +268,6 @@
 				D4A2E6FBC448586FA70FE0ADCBF609BB /* LgCustomView.h */,
 				A25E5ACA73689187465C4C71908A45DE /* LgCustomView.m */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -343,10 +364,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = 3E6C8DAF79B18574C613F52D85851961 /* LgPublic */;
+					ProductGroup = 837E8726279D2D930012F883 /* Products */;
+					ProjectRef = 8B38B129AECD54A352809FA86ABD6AC7 /* BeeHive */;
 				},
 				{
-					ProjectRef = 8B38B129AECD54A352809FA86ABD6AC7 /* BeeHive */;
+					ProductGroup = 837E8724279D2D930012F883 /* Products */;
+					ProjectRef = 3E6C8DAF79B18574C613F52D85851961 /* LgPublic */;
 				},
 			);
 			projectRoot = "";
@@ -355,6 +378,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		837E872B279D2DD30012F883 /* BeeHive.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BeeHive.framework;
+			remoteRef = 837E872A279D2DD30012F883 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		837E872D279D2DD30012F883 /* LgPublic.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LgPublic.framework;
+			remoteRef = 837E872C279D2DD30012F883 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2C9C3B0A2B24F1109A20342A1B512B4E /* Resources */ = {
@@ -377,7 +417,6 @@
 				C2266E979910500BA8B5224C5A21A29D /* LgCustomTableViewCell.m in Sources */,
 				FC692EFC6FAB2ACC7FC94BE8E0B49131 /* LgCustomView.m in Sources */,
 				C48B820BDF7930E9CE878EEAE77EEA37 /* LgUIKit-dummy.m in Sources */,
-				A82BFCEF8494E74029D6753BB0A3B983 /* LgUIKit.plist in Sources */,
 				3333DCB4B97CB704DEB7E235DF333C2E /* LgUIKitModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
